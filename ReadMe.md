@@ -36,7 +36,7 @@ should exist. It helps ensure that your dictionary follows a specific structure.
 
         It doesn't throw any error if you take wrong data type. 
 
-7. With_structed_output TypeDict:-
+7. With_structed_output TypeDict:-(this typeDict used for the represenation)
 
         1) Intialised the LLM
 
@@ -57,4 +57,13 @@ should exist. It helps ensure that your dictionary follows a specific structure.
 | 🔒 Better schema alignment  | Less chance of tool-call errors  |
 
 
-9 . Pydantic :- this is used for the data validation 
+9 . Pydantic :- this is used for the data validation.  Pydantic is a data validation and data parsing library for Python. It ensures that the data you
+work with is correct, structured, and type-safe.
+
+
+
+
+
+10. JSON_schema :- used when the whole project in multiple languages
+
+11. 
