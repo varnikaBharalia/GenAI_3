@@ -35,3 +35,26 @@ should exist. It helps ensure that your dictionary follows a specific structure.
 • It does not validate data at runtime (it just helps with type hints for better coding)
 
         It doesn't throw any error if you take wrong data type. 
+
+7. With_structed_output TypeDict:-
+
+        1) Intialised the LLM
+
+        2) Define schema
+
+        3) bind schema with the sturded_output
+
+        4) invoke model
+
+        5) get sturdted output 
+
+8 .  Annotated typeDict:- Annotated TypedDict is used to provide semantic guidance to LLMs while keeping strict structural typing, improving accuracy in structured output extraction.
+         
+        | Benefit                     | Explanation                      |
+| --------------------------- | -------------------------------- |
+| 🧠 Better LLM understanding | Model knows *how* to fill fields |
+| 📐 More accurate output     | Fewer hallucinations             |
+| 🔒 Better schema alignment  | Less chance of tool-call errors  |
+
+
+9 . Pydantic :- this is used for the data validation 
